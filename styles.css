@@ -1,1 +1,77 @@
 /* your code here */
+body{
+	background-color:black;
+	color:white;
+}
+.content{
+	margin:10px;
+	padding:10px;
+	background-color:black;
+}
+.fa{
+	width:20px;
+	padding:10px;
+	text-align:center;
+	font-size:10px;
+	text-decoration:none;
+	color:white;
+	border-radius:50px;
+	margin:5px;
+}
+.fa-facebook{
+	background-color:#4267B2;
+}
+.fa-twitter{
+	background-color:#1DA1F2;
+}
+.fa-instagram{
+	background-color:#E1306C;
+}
+.fa-linkedin{
+	background-color:#0077B5;
+}
+.fa-youtube{
+	background-color:#FF0000;
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.logo_name{
+	font-size:25px;
+}
+.list{
+	list-style-type:none;
+}
+.tag-line{
+	text-decoration:underline;
+	font-size:18px;
+}
+ul li{
+	margin:8px;
+}
+a{
+	text-decoration:none;
+	color:#B6B6B6;
+}
+.link-boxes{
+	margin-top:30px;
+	margin-left:-40px;
+	padding:0px;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.bottom-details{
+	background-color:#2C303A;
+	color:#BBBCBF;
+	display:flex;
+	justify-content:space-between;
+	padding-left:8px;
+	padding-right:8px;
+}
+footer{
+	display:flex;
+	flex-direction:column;
+}
